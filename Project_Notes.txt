@@ -41,5 +41,15 @@ git push origin {branch_name}
 نضيف مكان {branch_name} اسم الفرع.
 
 ========================================
-=============== lesson one =============
+=============== lesson Two  ============
 ========================================
+إنشاء ملفات التهجير:
+python manage.py makemigrations
+تشغيل ملفات التهجير:
+python manage.py migrate
+رفع التغييرات إلى مستودع GitHub:
+git add .
+
+git commit -m "Initiate project models"
+
+git push
